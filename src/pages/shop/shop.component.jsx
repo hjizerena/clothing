@@ -12,7 +12,6 @@ const ShopPage = ({match}) => {
             path={`${match.path}`}
             component={CollectionsOverview}
         >
-          <CollectionsOverview/>
         </Route>
         <Route
             path={`${match.path}/:collectionId`}
